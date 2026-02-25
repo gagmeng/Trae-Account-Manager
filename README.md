@@ -1,4 +1,7 @@
-# 🚀 Trae Account Manager
+## 💡 本项目替代方案
+
+如果您目前只需要**批量注册账号**的功能，欢迎使用我的另一个专门针对此需求的项目：
+👉 [Trae-Account-Creator](https://github.com/S-Trespassing/Trae-Account-Creator)
 
 ## ⚠️ 项目停更公告
 
@@ -10,12 +13,9 @@
 * **活动已结束：** Trae的周年庆活动已经告一段落。
 * **维护收益递减：** 综合来看，继续投入大量精力进行维护的实际收益已经比较小了。
 
-### 💡 替代方案
-
-如果您目前只需要**批量注册账号**的功能，欢迎使用我的另一个专门针对此需求的项目：
-👉 [Trae-Account-Creator](https://github.com/S-Trespassing/Trae-Account-Creator)
-
 祝天天开心！🚀
+
+# 🚀 Trae Account Manager
 
 <div align="center">
 
