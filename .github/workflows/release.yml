@@ -3,7 +3,8 @@ name: Build and Release
 on:
   push:
     branches:
-      - yuan
+      - main
+      - master
   workflow_dispatch:
 
 jobs:
@@ -40,8 +41,14 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tagName: app-v__VERSION__ 
-          releaseName: 'App v__VERSION__'
-          releaseBody: 'See the assets to download this version and install.'
-          releaseDraft: true
+          tagName: v__VERSION__
+          releaseName: 'Trae Account Manager v__VERSION__'
+          releaseBody: |
+            ## 下载安装
+            请从下方 Assets 中下载对应平台的安装包：
+            - Windows: `.msi` 或 `.exe` 文件
+            
+            ## 更新内容
+            详见提交记录
+          releaseDraft: false
           prerelease: false
